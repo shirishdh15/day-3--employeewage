@@ -28,6 +28,20 @@ public class EmployeeWage {
                     System.out.println("Present");
                     break;
             }
+            int workingDayMonth = 20;
+            int wageInMonth = (workingDayMonth * dailyWage);
+            System.out.println("Wage in a month is  " + wageInMonth);
+
+            int workingHours = 0;
+            int workingDay = 0;
+            int wage;
+            while (workingHours <= 100 || workingDay <= 20) {
+                wage = workingHours * workingDay;
+                workingHours++;
+                workingDay++;
+
+
+            }
         }
     }
 }
