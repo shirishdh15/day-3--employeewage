@@ -15,6 +15,11 @@ public class EmployeeWage {
             int fullDay = 8;
             int dailyWage = (wagePerHour * fullDay);
             System.out.println("Daily employee Wage is  " + dailyWage);
+
+            int partTimeWage = 10;
+            int partTimeHour = 8;
+            int partimeWage = (partTimeWage * partTimeHour);
+            System.out.println("Part time wage is  " + partimeWage);
         }
     }
 }
